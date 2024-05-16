@@ -1,0 +1,274 @@
+<html>
+    <head>
+        <title>
+            Stock Market
+        </title>
+        <!-- <link href="stockmarket.css" rel="stylesheet" /> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width = device-width,initial-scale = 1.0" />
+    </head>
+    <body>
+
+        <div class="main_content">
+
+            <div class="main_head">
+                <div class="lists">
+                    <div class="list_link">
+                        <a href="#home_div" class="link_1_11">STM</a>
+                    </div>
+                    <div class="list_link">
+                        <a onclick="reacher('h')" class="link_1_0">Home</a>
+                    </div>
+                    <div class="list_link">
+                        <a onclick="reacher('w')" class="link_1_1">watchlist</a>
+                    </div>
+                    <div class="list_link">
+                        <a onclick="reacher('p')" class="link_1_2">Portfolio</a>
+                    </div>
+                    <div class="list_link" style="display:none;">
+                        <a onclick="reacher('o')" class="link_1_3">Orders</a>
+                    </div>
+                    <div class="list_link">
+                        <a onclick="reacher('a')" class="link_1_4">Account</a>
+                    </div>
+                    <div class="list_link">
+                        <a onclick="reacher('l')" class="link_1_5">Login</a>
+                    </div>
+                </div>
+            </div>
+            <div class="main_data">
+                <div class="home" id="home_div">
+                    <div class="div_today h_comman">
+                        <div class="head">
+                            <div class="heading">
+                                <div class="text">
+                                    Market Today
+                                </div>
+                                <div class="link">
+                                    <a href="#">View Market</a>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                Market trends, indices, and insights for the day
+                            </div>
+                        </div>
+                        <div class="data">
+                            <div class="content1">
+                                <div class="logo">
+                                    <h3>i</h3>
+                                </div>
+                                <div class="flex">
+                                    <div class="dark">
+                                        Equity Trend Neutral 
+                                    </div>
+                                    <div class="light">
+                                        Updated 4 hrs 11 mins ago
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content1">
+                                <div class="logo">
+                                    <h3>i</h3>
+                                </div>
+                                <div class="flex">
+                                    <div class="dark">
+                                        Derivative Trend Neutral 
+                                    </div>
+                                    <div class="light">
+                                        Updated 4 hrs 11 mins ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div_welth h_comman">
+                        <div class="head">
+                            <div class="heading">
+                                <div class="text">
+                                    Build Your Wealth
+                                </div>
+                                <div class="link">
+                                </div>
+                            </div>
+                            <div class="desc">
+                                Through our fetured investment opportunities
+                            </div>
+                        </div>
+                        <div class="data">
+                            <div class="content1">
+                                IPO
+                            </div>
+                            <div class="content1">
+                                Mutual Funds
+                            </div>
+                            <div class="content1">
+                                Gold Bonds
+                            </div>
+                            <div class="content1">
+                                NPS
+                            </div>
+                            <div class="content1">
+                                NCD
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="div_promotion h_comman">
+                        <div class="head">
+                            <div class="heading">
+                                <div class="text">
+                                    Promotion & Offers
+                                </div>
+                                <div class="link">
+                                </div>
+                            </div>
+                            <div class="desc">
+                                Explore the best deals bundled with your Account
+                            </div>
+                        </div>
+                        <div class="data"></div>
+                    </div> -->
+                </div>
+
+
+
+
+                <!-- watchlist content -->
+
+
+
+                <div class="watch" id="watch_div">
+                    <div class="w_head watch_heads">
+                        <div class="text1">
+                            <div class="sub1">
+                                NITFY <h3>17412.90</h3><h3>></h3>
+                            </div>
+                            <div class="sub2">
+                            </div>
+                        </div>
+                        <div class="text2">
+                            <div class="sub1">
+                                BANK NITFY <h3>49485.90</h3><h3>></h3>
+                            </div>
+                            <div class="sub2"></div>
+                        </div>
+                    </div>
+                    <div class="w_content">
+                        <div class="head">
+                            <div class="search">
+                                <input type="search" name="se1" class="se1" placeholder="Search Stocks , Features & Options">
+                            </div>
+                            <div class="text">MY WATCHLIST</div>
+                        </div>
+                        <div class="content watch_content">
+                            <div class="wc_1">
+                                <div>Stock Name :</div>
+                                <div>Overall G/l</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- portpolio content -->
+
+
+
+                <div class="port" id="port_div">
+                    <div class="p_head">
+                        <div class="search">
+                            <input type="search" name="se1" class="se1" placeholder="Search Stocks , Features & Options">
+                        </div>
+                    </div>
+                    <div class="head_money">
+                        <div class="mdiv1">
+                            <div class="flex">
+                                <div class="logo">
+                                    <div class="text">Inv.Amt 1806 RS</div>
+                                </div>
+                                <div class="logo">
+                                    <div class="text">Mkt. Value 1800 RS</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mdiv2">
+                            <div class="flex">
+                                <div class="logo">
+                                    <div class="text">Overall Loss : <i>- 10.00 RS</i></div>
+                                </div>
+                                <div class="logo">
+                                    <div class="text">Today's Profit : <i>0.00 Rs</i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p_content">
+                        <div class="p_con1">
+                            <div class="sn">Stock Name</div>
+                            <div class="qnt">Qty</div>
+                            <div class="ltp">LTP</div>
+                            <div class="atp">ATP</div>
+                            <div class="inv_val">Inv.Amt</div>
+                            <div class="overallgl">Mkt.value</div>
+                            <div class="todaymarket">Overall G/L</div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <!-- login content -->
+
+
+
+                <div class="login" id="login_div">
+                    <div class="div1">
+                        <div class="User_name">
+                            Pranav Gadani
+                        </div>
+                    </div>
+                    <div class="div2">
+                        <input type="password" class="se1" id="user_textbox_1" placeholder="Enter a Pin" />
+                    </div>
+                </div>
+
+                <div class="login" id="Order_div">
+                    <div class="w_head"></div>
+                    <div class="w_content"></div>
+                </div>
+
+
+                <!-- account content -->
+
+
+
+                <div class="account" id="account_div">
+                    <div class="a_head">
+                        <div class="text">My Account</div>
+                        <div class="log_out">
+                            <a href="#logout">LOGOUT</a>
+                        </div>
+                    </div>
+                    <div class="a_content">
+                        <div class="a_con1">
+                            <div class="a_text">
+                                <div class="account_name">Vijay</div>
+                                <div class="link">
+                                    <a href="#">VIEW TRADING BILL SUMMARY</a>
+                                </div>
+                            </div>
+                            <div class="a_bal">
+                                <div class="a_balance">Trading Balance : 12000 RS</div>
+                                <div class="bu1">ADD FUNDS</div>
+                                <div class="bu2">WITHDRAW</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="stockmarket.js"></script>
+    </body>
+</html>
